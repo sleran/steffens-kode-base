@@ -1,0 +1,28 @@
+{
+  "name": "steffens-kode-base",
+  "version": "1.0.0",
+  "description": "En kode base af Steffen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sleran/steffens-kode-base.git"
+  },
+  "keywords": [
+    "cms",
+    "kodebase"
+  ],
+  "author": "Steffen Larsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sleran/steffens-kode-base/issues"
+  },
+  "homepage": "https://github.com/sleran/steffens-kode-base#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}
