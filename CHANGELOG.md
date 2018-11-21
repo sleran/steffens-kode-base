@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Tilføje flere funktioner
 
+## [0.1.1]
+### Added
+- Denne changelog
+
 ## [0.1.0] - 2018-11-21
 ### Added
 - Filstruktur
