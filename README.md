@@ -47,3 +47,19 @@ module.exports = function (app) {
     });
 };
 ```
+Opret nemt et view, via en fil i mappen views, "include" ønskede dele til dit view:
+```html
+<% include partials/head.ejs %>
+<% include partials/header.ejs %>
+<main tabindex="0" role="main" class="main" id="maincontent">
+    <h1><%= title %></h1>
+    <p><%= content %></p>
+</main>
+<% include partials/footer.ejs %>
+<% include partials/after-footer.ejs %>
+```
+Tilføj nemt filer til projektet via mappen public <br>
+![alt text](./public.PNG "Public mappe")
+```html
+<img src="/media/search_icon.png" alt="Search icon">
+```
