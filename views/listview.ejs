@@ -1,0 +1,18 @@
+<% include partials/head.ejs %>
+<% include partials/header.ejs %>
+<main tabindex="0" role="main" class="listeview">
+    <h1><%= title %></h1>
+        <div class="liste">
+            <ul>
+            <% results.forEach(result => { %> 
+                <li>
+                    <h2><a href="/liste/<%= result.id %>"><%= result.name %></a></h2>
+                    <a href="/liste/<%= result.id %>"><img src="images/liste/<%= result.image %>" alt="<%= result.name %>"></a>
+                    <p><%= result.price %> DKK</p>
+                </li>
+            <% }); %>
+            </ul>
+        </div>
+</main>
+<% include partials/footer.ejs %>
+<% include partials/after-footer.ejs %>
