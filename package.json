@@ -2,8 +2,12 @@
   "name": "steffens-kode-base",
   "version": "1.0.0",
   "description": "En kode base af Steffen",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node -r dotenv/config server.js dotenv_config_path=./.env",
+    "dev": "run-script-os",
+    "dev:win32": "set DEBUG=kodebase & nodemon -r dotenv/config server.js dotenv_config_path=./.env",
+    "dev:linux": "DEBUG=kodebase nodemon -r dotenv/config server.js dotenv_config_path=./.env",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,7 +26,17 @@
   "homepage": "https://github.com/sleran/steffens-kode-base#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "dotenv": "^6.1.0",
     "ejs": "^2.6.1",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "express-formidable": "^1.2.0",
+    "express-session": "^1.15.6",
+    "morgan": "^1.9.1",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "debug": "^4.1.0",
+    "nodemon": "^1.18.6",
+    "run-script-os": "^1.0.3"
   }
 }

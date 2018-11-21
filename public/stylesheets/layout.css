@@ -1,0 +1,3 @@
+main:focus, footer:focus {
+    outline: none;
+}
