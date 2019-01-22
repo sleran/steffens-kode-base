@@ -1,7 +1,7 @@
 {
-  "name": "steffens-kode-base",
-  "version": "0.1.2",
-  "description": "En kode base af Steffen",
+  "name": "landdrup-dans",
+  "version": "0.1.0",
+  "description": "Landdrup dans",
   "main": "server.js",
   "scripts": {
     "start": "node -r dotenv/config server.js dotenv_config_path=./.env",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sleran/steffens-kode-base.git"
+    "url": "git+https://github.com/be-tsj-enterprise/landdrupDans-Mamamia.git"
   },
   "keywords": [
     "cms",
@@ -21,9 +21,9 @@
   "author": "Steffen Larsen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sleran/steffens-kode-base/issues"
+    "url": "https://github.com/be-tsj-enterprise/landdrupDans-Mamamia/issues"
   },
-  "homepage": "https://github.com/sleran/steffens-kode-base#readme",
+  "homepage": "https://github.com/be-tsj-enterprise/landdrupDans-Mamamia#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
     "dotenv": "^6.1.0",
